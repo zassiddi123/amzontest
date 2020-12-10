@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+  
+<suite name="Suite1" verbose="1" >
+  <test name="chrometest" >
+  <parameter name="test1" value="chrome"/>
+    <classes>
+    <class name="codepractice.com.CrossBrowser"/>
+       <!-- <class name="testrunner.com.TestRunner" /> -->
+    </classes>
+  </test>
+ <test name="firefoxtest" >
+  <parameter name="test1" value="firefox"/>
+    <classes>
+    <class name="codepractice.com.CrossBrowser"/>
+       <!-- <class name="testrunner.com.TestRunner" /> -->
+    </classes>
+  </test>
+  
+</suite>
